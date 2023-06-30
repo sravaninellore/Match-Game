@@ -1,0 +1,21 @@
+.thumbnail {
+  width: 85px;
+  height: 85px;
+  border-radius: 1px;
+}
+
+.image-button {
+  margin-right: 4px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 576px) {
+  .thumbnail {
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+  }
+}

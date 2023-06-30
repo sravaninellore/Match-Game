@@ -1,0 +1,117 @@
+.game-over-card-container-big-small {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  height: 600px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.game-score-text {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 21px;
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+
+.button {
+  display: flex;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  background-color: #cf60c8;
+  border: none;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 13px;
+  padding-right: 13px;
+  height: 48px;
+  margin-bottom: 40px;
+  margin-top: 25px;
+  cursor: pointer;
+  width: 180px;
+}
+
+.reset-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+}
+
+.numeric-score {
+  font-size: 35px;
+  color: #ffffff;
+  margin: 0px;
+  font-weight: 500;
+}
+
+.trophy {
+  width: 320px;
+}
+
+@media screen and (max-width: 768px) {
+  .game-over-card-container-big-small {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    height: 600px;
+    width: 400px;
+  }
+
+  .trophy {
+    width: 280px;
+    margin-top: 15px;
+  }
+
+  .button {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    width: 160px;
+  }
+
+  .game-score-text {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .game-over-card-container-big-small {
+    width: 400px;
+    height: 420px;
+  }
+
+  .trophy {
+    width: 200px;
+    margin-top: 70px;
+  }
+
+  .button {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    width: 140px;
+  }
+
+  .game-score-text {
+    margin-top: 10px;
+    font-size: 17px;
+  }
+
+  .numeric-score {
+    font-size: 26px;
+  }
+
+  .button {
+    font-size: 15px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .trophy {
+    width: 200px;
+    margin-top: 90px;
+  }
+}
